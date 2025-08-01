@@ -1,0 +1,71 @@
+/* Para tablets (largura até 768px) */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .download,
+  .browser {
+    width: 90%;
+  }
+
+  .feature img {
+    width: 100%;
+    max-width: 90vw;
+  }
+
+  .feature .text h2 {
+    font-size: 1.8rem;
+  }
+
+  .feature .text p {
+    font-size: 0.95rem;
+  }
+}
+
+/* Para celulares (largura até 480px) */
+@media (max-width: 480px) {
+  .container-header {
+    padding: 20px;
+  }
+
+  .hero {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero p {
+    font-size: 13px;
+    line-height: 1.4;
+  }
+
+  .feature .text h2 {
+    font-size: 1.5rem;
+  }
+
+  .feature .text p {
+    font-size: 0.85rem;
+  }
+
+  .footer img {
+    width: 120px;
+  }
+}
